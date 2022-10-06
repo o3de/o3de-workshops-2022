@@ -1,0 +1,74 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/EnhancedPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "anisotropy": {
+            "anisotropyAngle": 0.8181818127632141,
+            "enableAnisotropy": true,
+            "factor": 0.5
+        },
+        "baseColor": {
+            "color": [
+                0.18422217667102815,
+                0.21264973282814027,
+                0.24347294867038728,
+                1.0
+            ],
+            "factor": 0.02500000037252903,
+            "textureBlendMode": "LinearLight",
+            "textureMap": "Materials/Car_paint/Color_Overlay_Abstract_4K_basecolor.png"
+        },
+        "clearCoat": {
+            "enable": true,
+            "normalMap": "Materials/Car_paint/paint_blue_ddn.png",
+            "normalStrength": 0.15000000596046449,
+            "roughness": 0.10999999940395355,
+            "roughnessMap": "Textures/__textures_dot_com__/TexturesCom_Overlay_Scuffs_4K_overlay.tif"
+        },
+        "detailLayerGroup": {
+            "baseColorDetail": [
+                0.7605249285697937,
+                0.8549935221672058,
+                0.9542076587677002,
+                1.0
+            ],
+            "baseColorDetailBlend": 0.10000000149011612,
+            "baseColorDetailMap": "Materials/Car_paint/metal_fleck_HP_03_basecolor.png",
+            "blendDetailMask": "Materials/Car_paint/metal_fleck_mask.png",
+            "enableDetaiNormalTexture": true,
+            "enableDetailBaseColorTexture": true,
+            "enableDetailLayer": true,
+            "enableDetailMaskTexture": true,
+            "normalDetailMap": "Materials/Car_paint/metal_fleck_normal.png",
+            "normalDetailStrength": 0.30000001192092898
+        },
+        "detailUV": {
+            "scale": 8.887999534606934
+        },
+        "general": {
+            "applySpecularAA": true
+        },
+        "metallic": {
+            "factor": 0.9800000190734863,
+            "textureMap": "Materials/Car_paint/Metallic_matte/metallic_matte_metallic.png"
+        },
+        "normal": {
+            "factor": 0.019999999552965165,
+            "flipX": true,
+            "flipY": true,
+            "textureMap": "Materials/Car_paint/Metallic_matte/metallic_matte_normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "roughness": {
+            "textureMap": "Materials/Car_paint/Metallic_matte/metallic_matte_tweak_roughness.png"
+        },
+        "specularF0": {
+            "enableMultiScatterCompensation": true,
+            "factor": 1.0
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/AnimatedGrass.materialtype",
+    "parentMaterial": "Objects/Foliage/GrassBase.material",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+            ],
+            "textureBlendMode": "Lerp",
+            "textureMap": "Objects/Foliage/flower_tile_two/textures/flower_purple_base_color.png",
+            "textureMapUv": "Unwrapped"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "normal": {
+            "textureMap": "Objects/Foliage/flower_tile_two/textures/flower_purple_normal.png",
+            "textureMapUv": "Unwrapped"
+        },
+        "opacity": {
+            "doubleSided": true,
+            "factor": 1.0
+        }
+    }
+}

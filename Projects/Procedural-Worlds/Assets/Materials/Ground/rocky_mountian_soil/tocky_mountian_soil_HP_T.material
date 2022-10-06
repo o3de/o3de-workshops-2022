@@ -1,0 +1,34 @@
+{
+    "materialType": "@gemroot:Terrain@/Assets/Materials/Terrain/TerrainDetailMaterial.materialtype",
+    "materialTypeVersion": 1,
+    "propertyValues": {
+        "baseColor.color": [
+            0.4800030589103699,
+            0.381994366645813,
+            0.24480049312114716,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "LinearLight",
+        "baseColor.textureMap": "rocky_mountain_soil_HP_basecolor.png",
+        "general.applySpecularAA": true,
+        "irradiance.manualColor": [
+            0.6699931621551514,
+            0.5965819954872131,
+            0.46808576583862305,
+            1.0
+        ],
+        "normal.factor": 1.5,
+        "normal.textureMap": "rocky_mountain_soil_normal.png",
+        "occlusion.diffuseTextureMap": "rocky_mountain_soil_ambientocclusion.png",
+        "parallax.algorithm": "ContactRefinement",
+        "parallax.pdo": true,
+        "parallax.quality": "Medium",
+        "parallax.textureMap": "rocky_mountain_soil_height.png",
+        "roughness.textureMap": "rocky_mountain_soil_roughness.png",
+        "specularF0.textureMap": "rocky_mountain_soil_specularlevel.png",
+        "terrain.heightOffset": 0.20000000298023224,
+        "terrain.heightScale": 1.5,
+        "terrain.overrideParallaxSettings": true,
+        "uv.scale": 0.10000000149011612
+    }
+}

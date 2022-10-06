@@ -1,0 +1,148 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "SnakesTongue",
+        "Components": {
+            "Component_[1150649300942911102]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1150649300942911102
+            },
+            "Component_[14467678911682503848]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14467678911682503848,
+                "Child Entity Order": [
+                    "Entity_[21273431506176]"
+                ]
+            },
+            "Component_[16026474189793285178]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16026474189793285178
+            },
+            "Component_[16992516327424579543]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16992516327424579543
+            },
+            "Component_[2405700234767913445]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 2405700234767913445
+            },
+            "Component_[302497891636039339]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 302497891636039339
+            },
+            "Component_[5453070777716644207]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5453070777716644207
+            },
+            "Component_[6535347210997479611]": {
+                "$type": "EditorLockComponent",
+                "Id": 6535347210997479611
+            },
+            "Component_[7160015565758592905]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7160015565758592905,
+                "Parent Entity": ""
+            },
+            "Component_[7489302557696203551]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7489302557696203551
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[21273431506176]": {
+            "Id": "Entity_[21273431506176]",
+            "Name": "SnakesTongue",
+            "Components": {
+                "Component_[11259896050574360931]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11259896050574360931
+                },
+                "Component_[12019433795996109015]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12019433795996109015,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6C73C3A2-6F6C-5B8D-A7C4-F1C601961081}",
+                                    "subId": 283279069
+                                },
+                                "assetHint": "objects/succulent-plants/snakes_tongue.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[12115822723408212721]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12115822723408212721,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12492320657667309067
+                        },
+                        {
+                            "ComponentId": 12019433795996109015,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8548728179183959285,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[12492320657667309067]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12492320657667309067,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[13404888970678517848]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13404888970678517848
+                },
+                "Component_[14324267494121407036]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14324267494121407036
+                },
+                "Component_[1433586934308153811]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1433586934308153811
+                },
+                "Component_[14578681323599824522]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14578681323599824522
+                },
+                "Component_[16793245002594641938]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16793245002594641938
+                },
+                "Component_[8548728179183959285]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8548728179183959285,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2897874563
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{CE7AD56E-64BF-5A5D-9236-57368A7B5281}"
+                                            },
+                                            "assetHint": "objects/succulent-plants/snakes_tongue_snake_plant_body.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9104414733759309671]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9104414733759309671
+                }
+            }
+        }
+    }
+}

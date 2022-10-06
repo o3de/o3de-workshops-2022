@@ -1,0 +1,25 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/AnimatedGrass.materialtype",
+    "parentMaterial": "Objects/Foliage/grass_tile_large/grass_tile_large_grass.material",
+    "propertyLayoutVersion": 0,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.22557412087917328,
+                0.30910199880599976,
+                0.0312809944152832,
+                1.0
+            ],
+            "textureBlendMode": "Overlay"
+        },
+        "subsurfaceScattering": {
+            "scatterColor": [
+                0.842923641204834,
+                1.0,
+                0.015320057980716228,
+                1.0
+            ]
+        }
+    }
+}

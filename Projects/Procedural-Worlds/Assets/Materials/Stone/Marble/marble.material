@@ -1,0 +1,54 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.08813611418008804,
+                0.008484016172587872,
+                0.1290913224220276,
+                1.0
+            ],
+            "textureMap": "Materials/Marble/giallo_antico_marble_basecolor.png"
+        },
+        "clearCoat": {
+            "enable": true
+        },
+        "emissive": {
+            "color": [
+                1.0,
+                0.9173418879508972,
+                0.5647059082984924,
+                1.0
+            ],
+            "enable": true,
+            "intensity": 6.0,
+            "textureMap": "Materials/Marble/giallo_antico_marble_basecolor.png"
+        },
+        "general": {
+            "applySpecularAA": true
+        },
+        "metallic": {
+            "useTexture": false
+        },
+        "normal": {
+            "factor": 0.30000001192092896,
+            "textureMap": "Materials/stylized_carved_crytal/stylized_carved_crystal_normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "parallax": {
+            "algorithm": "ContactRefinement",
+            "factor": 0.019999999552965164,
+            "quality": "Medium",
+            "useTexture": false
+        },
+        "roughness": {
+            "factor": 0.33000001311302185,
+            "textureMap": "Materials/Marble/giallo_antico_marble_roughness.png"
+        }
+    }
+}

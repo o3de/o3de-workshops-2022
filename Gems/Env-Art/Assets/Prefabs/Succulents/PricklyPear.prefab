@@ -1,0 +1,187 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "PricklyPear",
+        "Components": {
+            "Component_[11333739487327275429]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 11333739487327275429,
+                "Parent Entity": ""
+            },
+            "Component_[12390071564185962020]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12390071564185962020
+            },
+            "Component_[12478747650007121900]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 12478747650007121900
+            },
+            "Component_[14080973252554065518]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14080973252554065518
+            },
+            "Component_[14494559621880670867]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 14494559621880670867
+            },
+            "Component_[15598254141245748411]": {
+                "$type": "EditorLockComponent",
+                "Id": 15598254141245748411
+            },
+            "Component_[4488305170427265905]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4488305170427265905
+            },
+            "Component_[5330131482380869008]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5330131482380869008,
+                "Child Entity Order": [
+                    "Entity_[21024323403008]"
+                ]
+            },
+            "Component_[5674575620160685920]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5674575620160685920
+            },
+            "Component_[8520916500398694360]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8520916500398694360
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[21024323403008]": {
+            "Id": "Entity_[21024323403008]",
+            "Name": "PricklyPear",
+            "Components": {
+                "Component_[1256052344829027227]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1256052344829027227,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[13012356274993758924]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13012356274993758924
+                },
+                "Component_[15994615109872288835]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15994615109872288835,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 1256052344829027227
+                        },
+                        {
+                            "ComponentId": 5248881781784887023,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8171293118740478481,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[16519219571796894415]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16519219571796894415
+                },
+                "Component_[2055657966746940727]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2055657966746940727
+                },
+                "Component_[4899575799092923449]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4899575799092923449
+                },
+                "Component_[5248881781784887023]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 5248881781784887023,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{A04584CD-496D-518E-AADC-7FFF4734B73D}",
+                                    "subId": 284836796
+                                },
+                                "assetHint": "objects/succulent-plants/prickly_pear.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[5483425360855838537]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5483425360855838537
+                },
+                "Component_[7046303733001573531]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7046303733001573531
+                },
+                "Component_[8171293118740478481]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8171293118740478481,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1110451904
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{16BE61AF-4B01-5F29-BCD6-A64F7CE5F203}"
+                                            },
+                                            "assetHint": "objects/succulent-plants/prickly_pear_prickly_cactus_body.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2657029014
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8E88764A-1458-591F-AC0B-C59CDAE8BB9D}"
+                                            },
+                                            "assetHint": "objects/succulent-plants/prickly_pear_spines.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4102671790
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{ADFD3752-9EB4-54A9-A2E0-D1A42C59C70F}"
+                                            },
+                                            "assetHint": "objects/succulent-plants/prickly_pear_prickly_pear_body.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4112622378
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{716ECEB7-08E0-5E6B-B5C8-4434CF55B856}"
+                                            },
+                                            "assetHint": "objects/succulent-plants/prickly_pear_default_material.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9130675710467016045]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9130675710467016045
+                }
+            }
+        }
+    }
+}

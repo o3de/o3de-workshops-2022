@@ -1,0 +1,64 @@
+STARTLOG
+GAEA	1.3.1.9
+
+START	2022-10-06 11:01:43Z
+END	2022-10-06 11:13:15Z
+TOTAL	0:10:25
+SECONDS	625
+
+RESOLUTION	8192x8192
+BUCKET SIZE	8192x8192
+
+NODE	Crater	32.865
+NODE	Erosion	38.019
+NODE	Stacks	48.740
+NODE	Wizard	56.870
+NODE	cb_height	0.000
+NODE	cb_macro_color	0.000
+NODE	SatMaps	1.500
+NODE	cb_flow_splatmap	0.000
+NODE	Normal Map	0.426
+NODE	cb_rock_splatmap	0.000
+NODE	cb_deposit_splatmap	0.000
+NODE	cb_normalmap	0.000
+NODE	Slope	0.333
+NODE	Blur	1.753
+NODE	Slope	2.939
+NODE	Combine	0.873
+NODE	SatMaps	1.480
+NODE	Combine	0.890
+NODE	AutoLevel	3.148
+NODE	SatMaps	1.508
+NODE	Combine	0.895
+NODE	Combine	0.870
+NODE	Stacks	68.051
+NODE	Wizard	53.422
+NODE	Blur	1.346
+NODE	Surface	0.414
+NODE	RockMap	0.330
+NODE	Soil	35.583
+NODE	Protrusion	91.290
+NODE	Occlusion	11.512
+NODE	Curvature	0.414
+NODE	MicroErosion	15.011
+NODE	Alluvium	30.420
+NODE	Denoise	33.875
+NODE	Combine	2.068
+NODE	Combine	2.997
+NODE	SatMaps	1.460
+NODE	Combine	1.133
+NODE	Combine	1.177
+NODE	Combine	2.087
+NODE	Combine	1.226
+NODE	Combine	2.131
+NODE	Combine	1.984
+NODE	Combine	2.117
+NODE	Combine	2.108
+NODE	Flow	62.484
+NODE	Combine	1.140
+NODE	SatMaps	1.520
+NODE	Combine	2.630
+NODE	File	2.590
+
+OUTPUT	C:\depot\Procedural-Worlds\Gems\Sample-Terrain\.src\Quadspinner-Gaea\Canyon-barren/Output/2022-10-06_11-01-43
+ENDLOG

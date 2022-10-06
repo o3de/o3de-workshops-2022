@@ -1,0 +1,48 @@
+## LICENSE
+
+This Open 3D Engine "o3de-workshop-2022" repo is licensed under the following conditions:
+
+PROJECT DATA: "o3de-workshop-2022\Project"
+URL: https://github.com/o3de/o3de-workshops-2022/tree/main/Projects
+URL: https://github.com/o3de/o3de-workshops-2022/tree/main/Projects/Procedural-Worlds
+
+Project asset data including 3D models, image textures, and other game asset
+files are licensed under the Creative Commons license Attribution 4.0
+International (See LICENSE-CC-BY-4.0.txt)
+
+Otherwise the project data and code samples, including inline code, and
+related data are dual-licensed under Apache 2.0 and the MIT licenses.
+(see LICENSE-APACHE2.txt and LICENSE_MIT.TXT)
+
+ASSET DATA: "o3de-workshop-2022\Gems\*"
+URL: https://github.com/o3de/o3de-workshops-2022/tree/main/Gems/*
+Some modified assets are individually licensed under Creative Commons CC0,
+Attribution-ShareAlike (CC BY-SA), or Attribution 4.0 International (CC BY 4.0)
+In which case the license.txt resides in a folder with the original source files.
+
+Otherwise the O3DE Asset Gems and their contents including 3D models, image
+textures, and other game asset files are licensed under the Creative Commons
+license Attribution 4.0 International (See LICENSE-CC-BY-4.0.txt)
+
+DOCUMENTATION
+Any additional documentation content excluding code, and including images,
+is licensed under the Creative Commons license Attribution 4.0 International
+(See LICENSE-CC-BY-4.0.txt)
+
+OPEN 3D ENGINE LICENSING
+The default license for Open 3D Engine is the Apache License, Version 2.0 
+(see LICENSE_APACHE2.TXT); you may elect at your option to use the Open 3D 
+Engine under the MIT License (see LICENSE_MIT.TXT).  Contributions must be 
+made under both licenses.
+
+THIRD PARTY COMPONENTS
+Open 3D Engine requires the use of (and in some cases makes available to you) 
+software and assets that have been developed by third parties and are subject 
+to separate license terms (such as code licensed under other open source 
+licenses).  It is your responsibility to comply with the applicable licenses. 
+Information on third party materials, and the applicable license terms, are 
+referenced in or included with the materials, such as in separate LICENSE.txt 
+files accompanying the materials.
+
+For more information on the licensing terms of Open 3D Engine source code,
+read the O3DE License: https://github.com/o3de/o3de/blob/development/LICENSE.txt

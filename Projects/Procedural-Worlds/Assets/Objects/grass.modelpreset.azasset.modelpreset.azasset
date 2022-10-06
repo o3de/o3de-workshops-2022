@@ -1,0 +1,15 @@
+{
+    "Type": "JsonSerialization",
+    "Version": 1,
+    "ClassName": "AZ::Render::ModelPreset",
+    "ClassData": {
+        "displayName": "Grass",
+        "modelAsset": {
+            "assetId": {
+                "guid": "{BD0F8678-E627-5E1D-98C9-299CE01C5839}",
+                "subId": 278851907
+            },
+            "assetHint": "objects/grass_tile_large.azmodel"
+        }
+    }
+}

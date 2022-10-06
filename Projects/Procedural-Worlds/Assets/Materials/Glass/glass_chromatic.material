@@ -1,0 +1,30 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/EnhancedPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "factor": 0.12121210247278214,
+            "textureMap": "Materials/Glass/glass_chromatic_basecolor.png"
+        },
+        "clearCoat": {
+            "enable": true,
+            "roughness": 0.10000000149011612
+        },
+        "metallic": {
+            "factor": 1.0,
+            "textureMap": "Materials/Glass/glass_chromatic_metallic.png"
+        },
+        "normal": {
+            "textureMap": "Materials/Glass/glass_chromatic_normal.png"
+        },
+        "opacity": {
+            "factor": 0.800000011920929,
+            "mode": "Blended"
+        },
+        "roughness": {
+            "textureMap": "Materials/Glass/glass_chromatic_roughness.png"
+        }
+    }
+}

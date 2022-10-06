@@ -1,0 +1,39 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "ambientOcclusion": {
+            "enable": true,
+            "textureMap": "Materials/Concrete/concrete_cast_AO.png"
+        },
+        "baseColor": {
+            "textureBlendMode": "Lerp",
+            "textureMap": "Materials/Concrete/concrete_cast_basecolor.png"
+        },
+        "clearCoat": {
+            "normalMap": "Materials/Concrete016_8K/roller_painted_metal_normal.tif",
+            "roughness": 0.18181820213794709
+        },
+        "general": {
+            "applySpecularAA": true
+        },
+        "normal": {
+            "textureMap": "Materials/Concrete/concrete_cast_normal.png"
+        },
+        "parallax": {
+            "algorithm": "ContactRefinement",
+            "enable": true,
+            "factor": 0.029999999329447748,
+            "quality": "Ultra",
+            "textureMap": "Materials/Concrete/concrete_cast_height.png"
+        },
+        "roughness": {
+            "textureMap": "Materials/Concrete/concrete_cast_roughness.png"
+        },
+        "uv": {
+            "scale": 0.5
+        }
+    }
+}

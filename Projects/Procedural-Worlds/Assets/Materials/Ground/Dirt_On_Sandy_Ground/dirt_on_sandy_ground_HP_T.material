@@ -1,0 +1,28 @@
+{
+    "materialType": "@gemroot:Terrain@/Assets/Materials/Terrain/TerrainDetailMaterial.materialtype",
+    "materialTypeVersion": 1,
+    "propertyValues": {
+        "baseColor.color": [
+            0.4800030589103699,
+            0.381994366645813,
+            0.24480049312114716,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "LinearLight",
+        "baseColor.textureMap": "Dirt_On_Sandy_Ground_HP_BaseColor.png",
+        "general.applySpecularAA": true,
+        "irradiance.manualColor": [
+            0.6699931621551514,
+            0.5965819954872131,
+            0.46808576583862305,
+            1.0
+        ],
+        "normal.textureMap": "Dirt_On_Sandy_Ground_Normal.png",
+        "occlusion.diffuseTextureMap": "Dirt_On_Sandy_Ground_AmbientOcclusion.png",
+        "parallax.textureMap": "Dirt_On_Sandy_Ground_Height.png",
+        "roughness.textureMap": "Dirt_On_Sandy_Ground_Roughness.png",
+        "specularF0.textureMap": "Dirt_On_Sandy_Ground_SpecularLevel.png",
+        "terrain.overrideParallaxSettings": true,
+        "uv.scale": 0.25
+    }
+}

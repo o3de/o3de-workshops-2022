@@ -1,0 +1,121 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "rock_03",
+        "Components": {
+            "Component_[10168110896647114411]": {
+                "$type": "EditorLockComponent",
+                "Id": 10168110896647114411
+            },
+            "Component_[10417305779920624062]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 10417305779920624062
+            },
+            "Component_[13775658739979164448]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 13775658739979164448
+            },
+            "Component_[1808233369977256898]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 1808233369977256898
+            },
+            "Component_[2459536682767715202]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 2459536682767715202,
+                "Parent Entity": ""
+            },
+            "Component_[2769759577384423510]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 2769759577384423510
+            },
+            "Component_[3452271848573799647]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 3452271848573799647
+            },
+            "Component_[6968669816341237632]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6968669816341237632
+            },
+            "Component_[7795552134665046629]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7795552134665046629,
+                "Child Entity Order": [
+                    "Entity_[6863816228096]"
+                ]
+            },
+            "Component_[9715496516603120528]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 9715496516603120528
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[6863816228096]": {
+            "Id": "Entity_[6863816228096]",
+            "Name": "rock_03",
+            "Components": {
+                "Component_[11880655726362944113]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11880655726362944113,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3D5A5572-18B9-5E1E-8077-2D00901DF8A6}",
+                                    "subId": 282153435
+                                },
+                                "assetHint": "objects/rocks/default_rock_03_47730f70_06d8_5975_b691_e50f96824365_.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[12525776203129698436]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12525776203129698436
+                },
+                "Component_[15801059023881742594]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15801059023881742594
+                },
+                "Component_[18417618575224630799]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 18417618575224630799,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[2694285049193138858]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2694285049193138858
+                },
+                "Component_[4543389127146752016]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4543389127146752016
+                },
+                "Component_[4554700716716910505]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4554700716716910505,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 18417618575224630799
+                        },
+                        {
+                            "ComponentId": 11880655726362944113,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[504234835569121520]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 504234835569121520
+                },
+                "Component_[685664241617106653]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 685664241617106653
+                },
+                "Component_[7695176928334135312]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7695176928334135312
+                }
+            }
+        }
+    }
+}

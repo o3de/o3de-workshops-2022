@@ -1,0 +1,259 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "grass_tile_large",
+        "Components": {
+            "Component_[10523689080166577682]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 10523689080166577682
+            },
+            "Component_[11064431265520355894]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11064431265520355894
+            },
+            "Component_[1316490037999939772]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 1316490037999939772
+            },
+            "Component_[16004805429564754243]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 16004805429564754243
+            },
+            "Component_[17074704961138787860]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 17074704961138787860
+            },
+            "Component_[2598135421310861000]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 2598135421310861000,
+                "Parent Entity": ""
+            },
+            "Component_[4583313312410786357]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 4583313312410786357
+            },
+            "Component_[4774883892616425510]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4774883892616425510
+            },
+            "Component_[5091276899543671460]": {
+                "$type": "EditorLockComponent",
+                "Id": 5091276899543671460
+            },
+            "Component_[866326903774132856]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 866326903774132856
+            },
+            "Component_[9246015649440698348]": {
+                "$type": "SelectionComponent",
+                "Id": 9246015649440698348
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[251041299573758]": {
+            "Id": "Entity_[251041299573758]",
+            "Name": "grass_tile_large",
+            "Components": {
+                "Component_[1011990065867663969]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1011990065867663969
+                },
+                "Component_[11531749694973309736]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11531749694973309736,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12572475923924299312
+                        },
+                        {
+                            "ComponentId": 1402350676519738705,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4804967023739941890,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[11883261047276585975]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11883261047276585975
+                },
+                "Component_[12000783332737545659]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12000783332737545659
+                },
+                "Component_[12572475923924299312]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12572475923924299312,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[1402350676519738705]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1402350676519738705,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{4BB397BC-294A-5F51-A0A8-01BED94241C8}",
+                                    "subId": 278851907
+                                },
+                                "assetHint": "objects/foliage/grass_tile_large/grass_tile_large.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[16027065328673457878]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16027065328673457878
+                },
+                "Component_[16660903902658128505]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16660903902658128505
+                },
+                "Component_[18084307013734452976]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18084307013734452976
+                },
+                "Component_[2360106794771456814]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2360106794771456814
+                },
+                "Component_[4804967023739941890]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 4804967023739941890,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3977523045
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{92D00B71-51B0-5858-964C-0C9A830CEC25}"
+                                            },
+                                            "assetHint": "objects/foliage/grass_tile_large/grass_tile_large_grass.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 3977523045
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{92D00B71-51B0-5858-964C-0C9A830CEC25}"
+                                },
+                                "assetHint": "objects/foliage/grass_tile_large/grass_tile_large_grass.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3977523045
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{92D00B71-51B0-5858-964C-0C9A830CEC25}"
+                                },
+                                "assetHint": "objects/foliage/grass_tile_large/grass_tile_large_grass.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 1,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 2,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 3,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 4,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 1,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 2,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 3,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 4,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[8155142384324618656]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8155142384324618656
+                }
+            }
+        }
+    }
+}

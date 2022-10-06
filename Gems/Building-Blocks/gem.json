@@ -1,0 +1,21 @@
+{
+    "gem_name": "PW-Building-Blocks",
+    "display_name": "PW-Building-Blocks",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "origin": "HogJonny-AMZN",
+    "origin_url": "https://github.com/o3de/o3de-workshops-2022.git",
+    "type": "Asset",
+    "summary": "A set of blocks and assets for stylized worlds.",
+    "canonical_tags": [
+        "Gem"
+    ],
+    "user_tags": [
+        "Building-Blocks",
+		"Assets"
+    ],
+    "icon_path": "preview.png",
+    "dependencies": [],
+    "repo_uri": "${RepoURI}",
+    "restricted": "Building-Blocks"
+}

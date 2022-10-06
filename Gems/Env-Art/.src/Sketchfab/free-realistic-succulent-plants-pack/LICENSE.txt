@@ -1,0 +1,24 @@
+"Free Realistic Succulent Plants Pack" (https://skfb.ly/oxEYM) by TreDè is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+URL: https://sketchfab.com/3d-models/free-realistic-succulent-plants-pack-6a22ed22665743b6bc989978da95e32a
+
+Details:
+The original downloaded source was unzipped here (.zip delted to save space)
+The texture moved from .src to assets: Env-Art\Assets\Objects\Succulent-Plants\textures (one copy, also to save space)
+The FBX was imported into Maya (scene units meters, Z-up)r
+The hierarchy was rearranged, to prep for LOD hierarchy (spines are heavy)
+The scene was resized (scaled to meter cube as ref)
+The root nodes were renamed (to clean up)
+Each object was duplicated (Shift + D) to make a copy and remove instancing (so transforms could be frozen)
+^ hmm, that didn't work
+spines were instances below the body shape,
+so collapsed (combined) the spines (which moves the combines as a shape to a new node)
+then delete history all (gets rid of all the old instance transforms)
+then reparent hierachy
+then for each object, I created _LOD0 grp, duplicated to _LOD1 and removed the spines from the _LOD1
+then used 'LOD group' to put _LOD0 and _LOD1 into a Maya LOD group
+maya renames LOD_0 and LOD_1, those o3de won't see, so manually renamed back to _LOD0 and _LOD1
+I had moved the textures from the .src, down into assets folder (so only one copy)
+So I used the 'File Path Editor' to repath them to the new location
+In o3de, the material node name becomes the name of the material assignment slot in the 'material component' so I cleaned up the material node names
+From there it was just several rounds of itertive clean up, LODs and export (used the game exporter)

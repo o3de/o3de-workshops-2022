@@ -1,0 +1,31 @@
+STARTLOG
+GAEA	1.3.1.4
+
+START	2022-09-28 19:24:45Z
+END	2022-09-28 19:25:03Z
+TOTAL	0:00:14
+
+RESOLUTION	2048x2048
+BUCKET SIZE	2048x2048
+
+NODE	Wizard	0:00:09.701
+NODE	Texture	0:00:02.275
+NODE	Slope	0:00:00.035
+NODE	Combine	0:00:00.026
+NODE	Fx	0:00:00.084
+NODE	Combine	0:00:00.026
+NODE	Terrain-Basics_macro_color	0:00:00.176
+NODE	File	0:00:00.325
+NODE	Terrain-Blend_macro_normal	0:00:00.05
+NODE	Occlusion	0:00:00.484
+NODE	RockMap	0:00:00.228
+NODE	Terrain-Blend_curvature_gsi	0:00:00.03
+NODE	Blur	0:00:00.103
+NODE	SatMaps	0:00:00.157
+NODE	Combine	0:00:00.075
+NODE	SatMaps	0:00:00.159
+NODE	Combine	0:00:00.093
+NODE	Terrain-Blend_macro_color	0:00:00.081
+
+OUTPUT	C:\depot\Procedural-Worlds\Gems\Sample-Terrain\.src\Quadspinner-Gaea\Terrain-Blend\Terrain-Blend-TexturingBuilds\2022-09-28_19-24-45
+ENDLOG

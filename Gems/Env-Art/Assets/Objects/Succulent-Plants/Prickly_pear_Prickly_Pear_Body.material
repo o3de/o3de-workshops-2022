@@ -1,0 +1,16 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "textures/PearCactusFruit_Diffuse.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "normal.textureMap": "textures/PearCactusFruit_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.textureMap": "textures/PearCactusFruit_Roughness.png"
+    }
+}

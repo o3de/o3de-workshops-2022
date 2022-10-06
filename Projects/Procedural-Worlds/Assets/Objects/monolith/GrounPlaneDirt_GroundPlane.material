@@ -1,0 +1,54 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.2012902945280075,
+                0.1357254981994629,
+                0.07487999647855759,
+                1.0
+            ],
+            "factor": 0.07999999821186066,
+            "textureBlendMode": "LinearLight",
+            "textureMap": "Materials/rocky_mountian_soil/rocky_mountain_soil_basecolor.png"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "normal": {
+            "factor": 1.2000000476837158,
+            "flipY": true,
+            "textureMap": "Materials/rocky_mountian_soil/rocky_mountain_soil_normal.png"
+        },
+        "occlusion": {
+            "diffuseFactor": 0.5,
+            "diffuseTextureMap": "Materials/rocky_mountian_soil/rocky_mountain_soil_ambientocclusion.png",
+            "specularTextureMap": "Materials/rocky_mountian_soil/rocky_mountain_soil_ambientocclusion.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "parallax": {
+            "algorithm": "ContactRefinement",
+            "factor": 0.10000000149011612,
+            "quality": "High",
+            "textureMap": "Materials/rocky_mountian_soil/rocky_mountain_soil_height.png"
+        },
+        "roughness": {
+            "factor": 0.8500000238418579
+        },
+        "uv": {
+            "rotateDegrees": 22.5,
+            "tileU": 0.5,
+            "tileV": 0.5
+        }
+    }
+}

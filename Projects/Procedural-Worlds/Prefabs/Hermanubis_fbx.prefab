@@ -1,0 +1,176 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Hermanubis_fbx",
+        "Components": {
+            "Component_[10092868640826946655]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10092868640826946655
+            },
+            "Component_[13790033214256374360]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13790033214256374360
+            },
+            "Component_[14100123214061459045]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14100123214061459045
+            },
+            "Component_[14367918441269901030]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14367918441269901030,
+                "Parent Entity": "",
+                "Transform Data": {
+                    "Rotate": [
+                        0.0,
+                        0.0,
+                        179.99990844726563
+                    ]
+                }
+            },
+            "Component_[167450324936702764]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 167450324936702764,
+                "Child Entity Order": [
+                    "Entity_[2884970708896]"
+                ]
+            },
+            "Component_[17338345149541227107]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17338345149541227107
+            },
+            "Component_[328081584801930912]": {
+                "$type": "EditorLockComponent",
+                "Id": 328081584801930912
+            },
+            "Component_[6041358175350323015]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6041358175350323015
+            },
+            "Component_[6299662232257673874]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 6299662232257673874
+            },
+            "Component_[7751988491061094833]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7751988491061094833
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2884970708896]": {
+            "Id": "Entity_[2884970708896]",
+            "Name": "Hermanubis_fbx",
+            "Components": {
+                "Component_[10588523353042007330]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10588523353042007330,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{B3AC2305-1DE6-54AA-AAD5-5E77C75E5BB5}"
+                                        },
+                                        "assetHint": "objects/hermanubis/hermanubis_brass.azmaterial"
+                                    },
+                                    "PropertyOverrides": {
+                                        "clearCoat.enable": {
+                                            "$type": "bool",
+                                            "Value": false
+                                        },
+                                        "clearCoat.factor": {
+                                            "$type": "float",
+                                            "Value": 1.0
+                                        },
+                                        "clearCoat.roughness": {
+                                            "$type": "float",
+                                            "Value": 0.0
+                                        },
+                                        "specularF0.factor": {
+                                            "$type": "float",
+                                            "Value": 1.0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[11174413378183864520]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11174413378183864520
+                },
+                "Component_[11667728944573419429]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11667728944573419429
+                },
+                "Component_[3651445416477979363]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3651445416477979363
+                },
+                "Component_[4069670556474982216]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4069670556474982216
+                },
+                "Component_[4751744498989359096]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4751744498989359096
+                },
+                "Component_[5076659186768135091]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 5076659186768135091,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{1F650917-AA74-5107-9C49-648C957B33DA}",
+                                    "subId": 279292432
+                                },
+                                "assetHint": "materialeditor/viewportmodels/default_hermanubis_483a9300_9db7_5af1_bd04_860489221e94_.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[5125163465512893471]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5125163465512893471
+                },
+                "Component_[5599668119965081890]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5599668119965081890,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 565840096890460367
+                        },
+                        {
+                            "ComponentId": 5076659186768135091,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10588523353042007330,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[565840096890460367]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 565840096890460367,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            0.000013660377589985728
+                        ],
+                        "UniformScale": 0.009999999776482582
+                    }
+                },
+                "Component_[7200764811063117055]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7200764811063117055
+                }
+            }
+        }
+    }
+}

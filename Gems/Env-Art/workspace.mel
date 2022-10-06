@@ -1,0 +1,4 @@
+//Maya 2022 Project Definition
+
+workspace -fr "templates" "";
+workspace -fr "particles" "particles";

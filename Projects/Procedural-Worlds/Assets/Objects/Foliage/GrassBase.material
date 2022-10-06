@@ -1,0 +1,21 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/AnimatedGrass.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 0,
+    "properties": {
+        "general": {
+            "doubleSided": true
+        },
+        "wind": {
+            "distance": 0.17000000178813934,
+            "startHeight": 0.05999999865889549,
+            "windTextureScale": 0.12999999523162842,
+            "windVector": [
+                0.20000000298023224,
+                0.0,
+                0.0
+            ]
+        }
+    }
+}

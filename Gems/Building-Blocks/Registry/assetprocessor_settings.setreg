@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder Building-Blocks/Assets": {
+                    "watch": "@GEMROOT:Building-Blocks@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder Building-Blocks/Registry": {
+                    "watch": "@GEMROOT:Building-Blocks@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,161 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "grass_patch_02",
+        "Components": {
+            "Component_[1024260059395470545]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1024260059395470545,
+                "Parent Entity": ""
+            },
+            "Component_[13427878398596733256]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 13427878398596733256
+            },
+            "Component_[13871977186225495766]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 13871977186225495766
+            },
+            "Component_[14271845673376075588]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14271845673376075588
+            },
+            "Component_[160045374120725667]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 160045374120725667
+            },
+            "Component_[16279479271495528630]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 16279479271495528630
+            },
+            "Component_[17778264707368517245]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 17778264707368517245
+            },
+            "Component_[8109201556401835312]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 8109201556401835312,
+                "Child Entity Order": [
+                    "Entity_[1595126840523427]"
+                ]
+            },
+            "Component_[8325918059537658510]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8325918059537658510
+            },
+            "Component_[9245021572894996412]": {
+                "$type": "EditorLockComponent",
+                "Id": 9245021572894996412
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1595126840523427]": {
+            "Id": "Entity_[1595126840523427]",
+            "Name": "grass_patch_02",
+            "Components": {
+                "Component_[10218681546978291486]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10218681546978291486,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[12042021168820443173]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12042021168820443173,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2992574354
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{AA103E5B-F5EC-5787-BAB1-C8DD4B12B371}"
+                                            },
+                                            "assetHint": "objects/simple-grass-chunks/grass_patch_02_rostlinka12_2k.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3883081528
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{07199C20-5ACD-52F1-BC4D-9A434B28EC86}"
+                                            },
+                                            "assetHint": "objects/simple-grass-chunks/grass_patch_02_rostlinka_07c.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[12982199432095538936]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12982199432095538936,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10218681546978291486
+                        },
+                        {
+                            "ComponentId": 14183339662121364549,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12042021168820443173,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[14183339662121364549]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 14183339662121364549,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{7DEDC582-C8C5-5333-A88D-CA0AB10F07F6}",
+                                    "subId": 284325073
+                                },
+                                "assetHint": "objects/simple-grass-chunks/grass_patch_02.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[16466314307340646645]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16466314307340646645
+                },
+                "Component_[16607277188538894371]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16607277188538894371
+                },
+                "Component_[17761361394823822769]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17761361394823822769
+                },
+                "Component_[224395313517804623]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 224395313517804623
+                },
+                "Component_[3676391466690009779]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3676391466690009779
+                },
+                "Component_[412674823399209392]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 412674823399209392
+                },
+                "Component_[5055796482235674800]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5055796482235674800
+                }
+            }
+        }
+    }
+}
