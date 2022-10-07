@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder generic-workshop/Assets": {
+                    "watch": "@GEMROOT:generic-workshop@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder generic-workshop/Registry": {
+                    "watch": "@GEMROOT:generic-workshop@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}
