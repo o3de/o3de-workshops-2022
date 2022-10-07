@@ -1,2 +1,3 @@
 [lfs]
-url = https://d2gbyoggi0y5z2.cloudfront.net/api/v1
+# Default LFS endpoint for this repository
+url=https://d3ibvevsb80phv.cloudfront.net/api/v1
