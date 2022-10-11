@@ -1,2 +1,0 @@
-{ "time": "11:01:42.5973", "level": "INFO", "site": "Gaea.Build.Args.ReadArguments::0", "data": "\"C:\\Program Files\\QuadSpinner\\Gaea\\Gaea.Build.exe\" \"C:\\depot\\Procedural-Worlds\\Gems\\Sample-Terrain\\.src\\Quadspinner-Gaea\\Canyon-barren\\Canyon-barren.tor\" --open    --buildlog" }
-{ "time": "11:01:42.6833", "level": "INFO", "site": "A.GFM.I::0", "data": "Version 1.3.1.9" }
