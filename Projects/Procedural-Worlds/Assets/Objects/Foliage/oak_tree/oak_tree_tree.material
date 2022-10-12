@@ -1,0 +1,87 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/EnhancedPBR.materialtype",
+    "propertyLayoutVersion": 0,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+            ],
+            "textureBlendMode": "Lerp",
+            "textureMap": "Objects/Foliage/oak_tree/textures/oak_tree_base_color_lod0.png",
+            "textureMapUv": "Unwrapped"
+        },
+        "clearCoat": {
+            "influenceMap": "",
+            "influenceMapUv": "Tiled",
+            "normalMap": "",
+            "normalMapUv": "Tiled",
+            "roughnessMap": "",
+            "roughnessMapUv": "Tiled"
+        },
+        "detailLayerGroup": {
+            "baseColorDetailMap": "",
+            "blendDetailMask": "",
+            "blendDetailMaskUv": "Tiled",
+            "normalDetailMap": "",
+            "textureMapUv": "Tiled"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "textureMap": "",
+            "textureMapUv": "Tiled",
+            "unit": "Ev100"
+        },
+        "metallic": {
+            "textureMap": "",
+            "textureMapUv": "Tiled"
+        },
+        "normal": {
+            "textureMap": "Objects/Foliage/oak_tree/textures/oak_tree_normal_lod0.png",
+            "textureMapUv": "Unwrapped"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "",
+            "diffuseTextureMapUv": "Tiled",
+            "specularTextureMap": "",
+            "specularTextureMapUv": "Tiled"
+        },
+        "opacity": {
+            "alphaSource": "Packed",
+            "doubleSided": true,
+            "factor": 1.0,
+            "mode": "Opaque",
+            "textureMap": "",
+            "textureMapUv": "Tiled"
+        },
+        "parallax": {
+            "algorithm": "POM",
+            "quality": "Low",
+            "textureMap": "",
+            "textureMapUv": "Tiled"
+        },
+        "roughness": {
+            "textureMap": "Objects/Foliage/oak_tree/textures/oak_tree_roughness_lod0.png",
+            "textureMapUv": "Unwrapped"
+        },
+        "specularF0": {
+            "textureMap": "",
+            "textureMapUv": "Tiled"
+        },
+        "subsurfaceScattering": {
+            "influenceMap": "",
+            "influenceMapUv": "Tiled",
+            "thicknessMap": "",
+            "thicknessMapUv": "Tiled",
+            "transmissionMode": "None"
+        }
+    }
+}

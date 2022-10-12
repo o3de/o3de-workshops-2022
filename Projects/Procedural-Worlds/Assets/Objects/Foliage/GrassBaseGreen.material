@@ -1,0 +1,26 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "Objects/Foliage/GrassBase.material",
+    "propertyLayoutVersion": 0,
+    "properties": {
+        "subsurfaceScattering": {
+            "enableSubsurfaceScattering": true,
+            "quality": 0.20000000298023224,
+            "scatterColor": [
+                0.21403829753398895,
+                1.0,
+                0.015320057980716228,
+                1.0
+            ],
+            "scatterDistance": 0.20000000298023224,
+            "transmissionMode": "ThinObject",
+            "transmissionTint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    }
+}

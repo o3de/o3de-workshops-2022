@@ -1,0 +1,31 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/EnhancedPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "textureBlendMode": "Lerp",
+            "textureMap": "Materials/Glass/glass_tinted_basecolor.png"
+        },
+        "detailLayerGroup": {
+            "baseColorDetailBlend": 2.0
+        },
+        "metallic": {
+            "factor": 0.20000000298023225
+        },
+        "normal": {
+            "textureMap": "Materials/Glass/glass_tinted_normal.png"
+        },
+        "opacity": {
+            "factor": 0.30000001192092898,
+            "mode": "Blended"
+        },
+        "roughness": {
+            "textureMap": "Materials/Glass/glass_tinted_roughness.png"
+        },
+        "specularF0": {
+            "enableMultiScatterCompensation": true
+        }
+    }
+}

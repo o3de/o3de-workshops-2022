@@ -1,0 +1,161 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "BarrelCactus",
+        "Components": {
+            "Component_[11410283280337627267]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11410283280337627267,
+                "Child Entity Order": [
+                    "Entity_[21153172421888]"
+                ]
+            },
+            "Component_[1382048711681922591]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 1382048711681922591
+            },
+            "Component_[15979665652403824079]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15979665652403824079
+            },
+            "Component_[1744895116025877277]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 1744895116025877277
+            },
+            "Component_[18136029559680418079]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 18136029559680418079
+            },
+            "Component_[3083163317023253746]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3083163317023253746
+            },
+            "Component_[3525879056641640974]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3525879056641640974
+            },
+            "Component_[5223898273268540610]": {
+                "$type": "EditorLockComponent",
+                "Id": 5223898273268540610
+            },
+            "Component_[7112199267301398299]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7112199267301398299
+            },
+            "Component_[875624903670025098]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 875624903670025098,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[21153172421888]": {
+            "Id": "Entity_[21153172421888]",
+            "Name": "BarrelCactus",
+            "Components": {
+                "Component_[11345563824209031753]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11345563824209031753,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16481618528745574598
+                        },
+                        {
+                            "ComponentId": 17048770657535126777,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8035296514152866708,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[13274473957923136039]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13274473957923136039
+                },
+                "Component_[13757236735770766955]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13757236735770766955
+                },
+                "Component_[15662361467956532819]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15662361467956532819
+                },
+                "Component_[16481618528745574598]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16481618528745574598,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[17048770657535126777]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 17048770657535126777,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{A9089934-6D8C-5A95-8C39-0E1CA6C8C6D1}",
+                                    "subId": 284051835
+                                },
+                                "assetHint": "objects/succulent-plants/barrel_cactus.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[18129191859385987681]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 18129191859385987681
+                },
+                "Component_[3976947766919671576]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3976947766919671576
+                },
+                "Component_[6526833862465253473]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6526833862465253473
+                },
+                "Component_[8035296514152866708]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8035296514152866708,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 422420347
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7584F06E-5047-5B3C-BBCD-94334BF55303}"
+                                            },
+                                            "assetHint": "objects/succulent-plants/barrel_cactus_barrel_cactus_body.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2657029014
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{FCF1FF65-408D-5A53-9CA5-FCE5210859D3}"
+                                            },
+                                            "assetHint": "objects/succulent-plants/barrel_cactus_spines.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8344781351644970848]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8344781351644970848
+                }
+            }
+        }
+    }
+}

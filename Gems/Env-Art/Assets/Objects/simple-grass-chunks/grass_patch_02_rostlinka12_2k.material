@@ -1,0 +1,18 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "textures/rostlinka12_2k_basecolor.jpeg",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "normal.textureMap": "textures/rostlinka12_2k_normal.jpeg",
+        "opacity.alphaSource": "Split",
+        "opacity.factor": 0.699999988079071,
+        "opacity.mode": "Cutout",
+        "opacity.textureMap": "textures/rostlinka12_2k_alpha.jpeg"
+    }
+}

@@ -1,0 +1,255 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "grass_tile_large_dry",
+        "Components": {
+            "Component_[12949607294762725853]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 12949607294762725853
+            },
+            "Component_[16005309246239510462]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 16005309246239510462
+            },
+            "Component_[1767553324752660061]": {
+                "$type": "EditorLockComponent",
+                "Id": 1767553324752660061
+            },
+            "Component_[2289761456216095649]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 2289761456216095649,
+                "Parent Entity": ""
+            },
+            "Component_[3207072965091348745]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3207072965091348745
+            },
+            "Component_[3467325027161741508]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 3467325027161741508
+            },
+            "Component_[3488588104612806000]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3488588104612806000
+            },
+            "Component_[4719935314186361024]": {
+                "$type": "SelectionComponent",
+                "Id": 4719935314186361024
+            },
+            "Component_[6516406160849866716]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 6516406160849866716
+            },
+            "Component_[7335910985887532478]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7335910985887532478
+            },
+            "Component_[9369592526656907779]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 9369592526656907779
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[282978676386814]": {
+            "Id": "Entity_[282978676386814]",
+            "Name": "grass_tile_large_dry",
+            "Components": {
+                "Component_[10234017404834206269]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10234017404834206269,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3977523045
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{600CFE8A-7149-5B37-99EC-C47093DD2B13}"
+                                            },
+                                            "assetHint": "objects/foliage/grass_tile_large_dry/grass_tile_large_dry_grass.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 3977523045
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{600CFE8A-7149-5B37-99EC-C47093DD2B13}"
+                                },
+                                "assetHint": "objects/foliage/grass_tile_large_dry/grass_tile_large_dry_grass.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3977523045
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{600CFE8A-7149-5B37-99EC-C47093DD2B13}"
+                                },
+                                "assetHint": "objects/foliage/grass_tile_large_dry/grass_tile_large_dry_grass.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 1,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 2,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 3,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 4,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 1,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 2,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 3,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 4,
+                                    "materialSlotStableId": 3977523045
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[13909126669524020474]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13909126669524020474,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16667359781000034731
+                        },
+                        {
+                            "ComponentId": 9144927916579360314,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[16667359781000034731]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16667359781000034731,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[18278404053613847023]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 18278404053613847023
+                },
+                "Component_[2503732019021483212]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2503732019021483212
+                },
+                "Component_[4718320246718298623]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4718320246718298623
+                },
+                "Component_[4889098537632430762]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4889098537632430762
+                },
+                "Component_[5992024728583077183]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5992024728583077183
+                },
+                "Component_[722796681051502712]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 722796681051502712
+                },
+                "Component_[8038323507901060616]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8038323507901060616
+                },
+                "Component_[9144927916579360314]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9144927916579360314,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3555CFD9-89CA-55FA-99B7-E49328AABA40}",
+                                    "subId": 270856628
+                                },
+                                "assetHint": "objects/foliage/grass_tile_large_dry/grass_tile_large_dry.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9664862672161177134]": {
+                    "$type": "SelectionComponent",
+                    "Id": 9664862672161177134
+                }
+            }
+        }
+    }
+}

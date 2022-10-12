@@ -1,0 +1,21 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "compact_rocks_and_clay_ground_01_basecolor.png",
+        "general.applySpecularAA": true,
+        "irradiance.irradianceColorSource": "BaseColor",
+        "normal.textureMap": "compact_rocks_and_clay_ground_01_normal.png",
+        "occlusion.diffuseTextureMap": "compact_rocks_and_clay_ground_01_ambientocclusion.png",
+        "parallax.algorithm": "ContactRefinement",
+        "parallax.pdo": true,
+        "parallax.quality": "Medium",
+        "parallax.textureMap": "compact_rocks_and_clay_ground_01_height.png",
+        "roughness.textureMap": "compact_rocks_and_clay_ground_01_roughness.png",
+        "specularF0.enableMultiScatterCompensation": true,
+        "specularF0.factor": 1.0,
+        "specularF0.textureMap": "compact_rocks_and_clay_ground_01_specularlevel.png",
+        "uv.scale": 0.25
+    }
+}

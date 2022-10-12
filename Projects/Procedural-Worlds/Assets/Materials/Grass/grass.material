@@ -1,0 +1,52 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/AnimatedGrass.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 0,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Materials/grass_base_color.png"
+        },
+        "general": {
+            "doubleSided": true
+        },
+        "normal": {
+            "textureMap": "Materials/grass_normal.png"
+        },
+        "roughness": {
+            "textureMap": "Materials/grass_roughness.png"
+        },
+        "subsurfaceScattering": {
+            "enableSubsurfaceScattering": true,
+            "scatterColor": [
+                0.26005950570106506,
+                1.0,
+                0.13000686466693878,
+                1.0
+            ],
+            "scatterDistance": 1.0,
+            "subsurfaceScatterFactor": 0.5,
+            "thickness": 0.8999999761581421,
+            "thicknessMap": "Materials/grass_transmission.png",
+            "transmissionAttenuation": 20.0,
+            "transmissionDistortion": 0.1599999964237213,
+            "transmissionMode": "ThickObject",
+            "transmissionTint": [
+                0.5983977913856506,
+                1.0,
+                0.22560463845729828,
+                1.0
+            ]
+        },
+        "wind": {
+            "distance": 0.17000000178813934,
+            "startHeight": 0.05999999865889549,
+            "windTextureScale": 0.12999999523162842,
+            "windVector": [
+                0.20000000298023224,
+                0.0,
+                0.0
+            ]
+        }
+    }
+}

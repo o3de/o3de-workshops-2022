@@ -1,0 +1,34 @@
+
+set(ENABLED_GEMS
+    Procedural-Worlds
+    Atom
+    AudioSystem
+    AWSCore
+    CameraFramework
+    DebugDraw
+    EditorPythonBindings
+    EMotionFX
+    GameState
+    ImGui
+    LandscapeCanvas
+    LyShine
+    PhysX
+    PrimitiveAssets
+    PrefabBuilder
+    SaveData
+    ScriptCanvasPhysics
+    ScriptEvents
+    StartingPointInput
+    TextureAtlas
+    WhiteBox
+    DiffuseProbeGrid
+    Terrain
+    Vegetation
+    DccScriptingInterface
+    FastNoise
+    PW-Building-Blocks
+    PW-Env-Art
+    PW-Sample-Terrain
+    NvCloth
+    StartingPointCamera
+)

@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: CC-BY-4.0
+
+"Grass patches" (https://skfb.ly/onMCA) by DJMaesen is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+URL: https://sketchfab.com/3d-models/grass-patches-6952780b80594a31aab2dedf7249a47a
+
+Notes:
+Textures moved directly into the asset folder: Env-Art\Assets\Objects\grass-patches\textures

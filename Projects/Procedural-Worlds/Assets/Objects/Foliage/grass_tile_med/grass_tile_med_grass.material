@@ -1,0 +1,39 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "Objects/Foliage/GrassBaseGreen.material",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+            ],
+            "textureBlendMode": "Lerp",
+            "textureMap": "Objects/Foliage/grass_tile_med/textures/grass_base_color.png",
+            "textureMapUv": "Unwrapped"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "normal": {
+            "textureMap": "Objects/Foliage/grass_tile_med/textures/grass_normal.png",
+            "textureMapUv": "Unwrapped"
+        },
+        "opacity": {
+            "doubleSided": true,
+            "factor": 1.0
+        },
+        "roughness": {
+            "textureMap": "Objects/Foliage/grass_tile_med/textures/grass_roughness.png",
+            "textureMapUv": "Unwrapped"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "parentMaterial": "block_1m_block.material",
+    "propertyValues": {
+        "baseColor.color": [
+            0.95686274766922,
+            0.5215686559677124,
+            0.545098066329956,
+            1.0
+        ],
+        "clearCoat.enable": true,
+        "clearCoat.roughness": 1.0,
+        "clearCoat.roughnessMap": "overlay_basecolor.png",
+        "irradiance.manualColor": [
+            0.95686274766922,
+            0.5215686559677124,
+            0.545098066329956,
+            1.0
+        ],
+        "metallic.factor": 0.20000000298023224,
+        "metallic.textureMap": "overlay_basecolor.png",
+        "roughness.factor": 0.5
+    }
+}

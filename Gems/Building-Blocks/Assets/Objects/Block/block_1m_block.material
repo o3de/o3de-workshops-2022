@@ -1,0 +1,29 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.9921568632125854,
+            0.843137264251709,
+            0.5098039507865906,
+            1.0
+        ],
+        "baseColor.factor": 0.33000001311302185,
+        "baseColor.textureBlendMode": "LinearLight",
+        "baseColor.textureMap": "overlay_basecolor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.useTexture": false,
+        "metallic.useTexture": false,
+        "occlusion.diffuseUseTexture": false,
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.75,
+        "roughness.useTexture": false,
+        "specularF0.enableMultiScatterCompensation": true
+    }
+}

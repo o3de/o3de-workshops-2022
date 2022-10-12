@@ -1,0 +1,15 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "parentMaterial": "dirt_on_sandy_ground.material",
+    "propertyValues": {
+        "baseColor.color": [
+            0.2399939000606537,
+            0.2074769139289856,
+            0.13919280469417572,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "LinearLight",
+        "baseColor.textureMap": "Dirt_On_Sandy_Ground_HP_BaseColor.png"
+    }
+}

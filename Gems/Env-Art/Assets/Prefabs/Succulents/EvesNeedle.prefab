@@ -1,0 +1,174 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "EvesNeedle",
+        "Components": {
+            "Component_[11348801128689980713]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11348801128689980713
+            },
+            "Component_[15702410062918892511]": {
+                "$type": "EditorLockComponent",
+                "Id": 15702410062918892511
+            },
+            "Component_[17459122507164550687]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17459122507164550687
+            },
+            "Component_[17681407022782132940]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 17681407022782132940
+            },
+            "Component_[17699565828603268142]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 17699565828603268142
+            },
+            "Component_[2539005698640585440]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 2539005698640585440,
+                "Child Entity Order": [
+                    "Entity_[21410870459648]"
+                ]
+            },
+            "Component_[4750980672422784091]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4750980672422784091
+            },
+            "Component_[5236494262873514926]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5236494262873514926
+            },
+            "Component_[5961219216274788508]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5961219216274788508
+            },
+            "Component_[7851476460841437207]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7851476460841437207,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[21410870459648]": {
+            "Id": "Entity_[21410870459648]",
+            "Name": "EvesNeedle",
+            "Components": {
+                "Component_[11494299713648438740]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11494299713648438740
+                },
+                "Component_[15633096875606883352]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15633096875606883352
+                },
+                "Component_[1745944911914672763]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1745944911914672763,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[17749479383573698972]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17749479383573698972
+                },
+                "Component_[18094211057303169302]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 18094211057303169302
+                },
+                "Component_[2631213514052924360]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2631213514052924360
+                },
+                "Component_[3170146982393921259]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3170146982393921259
+                },
+                "Component_[3930530939979336527]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3930530939979336527,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2657029014
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F7C724E3-04D9-557D-99CC-20075EDE953D}"
+                                            },
+                                            "assetHint": "objects/succulent-plants/cactus_spines.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3769442806
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{49075F29-2B66-5459-B194-9EED9F09D219}"
+                                            },
+                                            "assetHint": "objects/succulent-plants/cactus_cactus_body.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4112622378
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9DD9DC1F-DDFC-5387-96E5-824CC362C894}"
+                                            },
+                                            "assetHint": "objects/succulent-plants/cactus_default_material.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[5927155817439457625]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5927155817439457625,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 1745944911914672763
+                        },
+                        {
+                            "ComponentId": 8708373839033699327,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 3930530939979336527,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[7277433578674245342]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7277433578674245342
+                },
+                "Component_[8708373839033699327]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8708373839033699327,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{7D73919E-324F-5B38-952F-D654E3C85337}",
+                                    "subId": 283097086
+                                },
+                                "assetHint": "objects/succulent-plants/cactus.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

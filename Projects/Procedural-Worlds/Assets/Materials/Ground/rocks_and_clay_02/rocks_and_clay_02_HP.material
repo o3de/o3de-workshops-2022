@@ -1,0 +1,18 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "parentMaterial": "rocks_and_clay_02.material",
+    "propertyValues": {
+        "baseColor.color": [
+            0.36000609397888184,
+            0.24968338012695313,
+            0.12239261716604233,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "LinearLight",
+        "baseColor.textureMap": "compact_rocks_and_clay_ground_02_HP_basecolor.png",
+        "uv.scale": 1.0,
+        "uv.tileU": 0.10000000149011612,
+        "uv.tileV": 0.10000000149011612
+    }
+}
