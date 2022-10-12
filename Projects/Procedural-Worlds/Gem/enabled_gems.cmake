@@ -29,4 +29,6 @@ set(ENABLED_GEMS
     PW-Building-Blocks
     PW-Env-Art
     PW-Sample-Terrain
+    NvCloth
+    StartingPointCamera
 )

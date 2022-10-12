@@ -1,6 +1,6 @@
 {
     "description": "",
-    "materialType": "Materials/Types/AnimatedGrass.materialtype",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
     "parentMaterial": "Objects/Foliage/grass_tile_large/grass_tile_large_grass.material",
     "propertyLayoutVersion": 0,
     "properties": {

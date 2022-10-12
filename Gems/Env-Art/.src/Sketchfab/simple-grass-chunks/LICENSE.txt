@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: CC-BY-4.0
+
 "Simple grass chunks" (https://skfb.ly/6zz9G) by 3dhdscan is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 URL: https://sketchfab.com/3d-models/simple-grass-chunks-eb4f6dc9d4e3455ea3435385faf58b60

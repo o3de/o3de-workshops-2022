@@ -1,1 +1,3 @@
+# SPDX-License-Identifier: CC-BY-4.0
+
 "Low-Poly Monolith" (https://skfb.ly/6A6DX) by dvnc.tech is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).

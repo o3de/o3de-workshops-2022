@@ -1,6 +1,6 @@
 {
     "description": "",
-    "materialType": "Materials/Types/AnimatedGrass.materialtype",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
     "parentMaterial": "Objects/Foliage/GrassBaseGreen.material",
     "propertyLayoutVersion": 3,
     "properties": {
