@@ -8,6 +8,8 @@ This repository contains asset gems and project files used in workshops during t
 
 A content sample project for Open 3D Engine (O3DE) that contains a series of procedural world examples, used in the O3Dcon 2022 workshop "World Building with O3DE"
 
+![image](https://user-images.githubusercontent.com/23222931/196006789-299b2e9f-f864-4a2a-988d-b75476ec043c.png)
+
 #### 1. Set up the Engine
 
 Either build the installer yourself (*cmake --build build/windows_vs2019 --target INSTALL --config profile), or download the 22.10 release,* or download the latest nightly install build https://o3debinaries.org/development/Latest/Windows/o3de_installer.exe
