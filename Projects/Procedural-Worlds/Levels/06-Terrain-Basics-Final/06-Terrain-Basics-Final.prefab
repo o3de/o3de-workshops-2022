@@ -3207,13 +3207,13 @@
                     "$type": "EditorGradientBakerComponent",
                     "Id": 10071009294741632099,
                     "Previewer": {
-                        "BoundsEntity": "Entity_[855801606858383]"
+                        "BoundsEntity": "Entity_[873737390286479]"
                     },
                     "Configuration": {
                         "Gradient": {
                             "GradientId": "Entity_[855801606858383]"
                         },
-                        "InputBounds": "Entity_[855801606858383]",
+                        "InputBounds": "Entity_[873737390286479]",
                         "OutputResolution": [
                             1024.0,
                             1024.0
