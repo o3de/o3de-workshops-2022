@@ -1,7 +1,6 @@
 {
     "description": "",
     "materialType": "Materials/Types/EnhancedPBR.materialtype",
-    "propertyLayoutVersion": 0,
     "properties": {
         "baseColor": {
             "color": [

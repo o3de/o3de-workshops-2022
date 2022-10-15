@@ -1,0 +1,32 @@
+{
+    "materialType": "@gemroot:Terrain@/Assets/Materials/Terrain/TerrainDetailMaterial.materialtype",
+    "materialTypeVersion": 1,
+    "propertyValues": {
+        "baseColor.color": [
+            0.2050812542438507,
+            0.1274433583021164,
+            0.07035934925079346,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "LinearLight",
+        "baseColor.textureMap": "Materials/Ground/Dirt_Soil/Dirt_Soil_HP_Albedo.png",
+        "general.applySpecularAA": true,
+        "irradiance.manualColor": [
+            0.2050812542438507,
+            0.1274433583021164,
+            0.07035934925079346,
+            1.0
+        ],
+        "metallic.textureMap": "Materials/Ground/Dirt_Soil/Dirt_Soil_Metallic.png",
+        "normal.textureMap": "Materials/Ground/Dirt_Soil/Dirt_Soil_Normal.png",
+        "occlusion.diffuseTextureMap": "Materials/Ground/Dirt_Soil/Dirt_Soil_Occlusion.png",
+        "parallax.algorithm": "ContactRefinement",
+        "parallax.pdo": true,
+        "parallax.quality": "Medium",
+        "parallax.shadowFactor": 0.8399999737739563,
+        "parallax.textureMap": "Materials/Ground/Dirt_Soil/Dirt_Soil_Height.png",
+        "roughness.factor": 0.8399999737739563,
+        "terrain.overrideParallaxSettings": true,
+        "uv.scale": 0.25
+    }
+}

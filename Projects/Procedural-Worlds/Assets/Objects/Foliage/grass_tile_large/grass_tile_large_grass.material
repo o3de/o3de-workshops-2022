@@ -1,8 +1,7 @@
 {
     "description": "",
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "parentMaterial": "Objects/Foliage/GrassBaseGreen.material",
-    "propertyLayoutVersion": 0,
+    "parentMaterial": "Assets/Objects/Foliage/GrassBaseGreen.material",
     "properties": {
         "baseColor": {
             "color": [

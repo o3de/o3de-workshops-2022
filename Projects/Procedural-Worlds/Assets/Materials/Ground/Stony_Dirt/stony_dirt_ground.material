@@ -1,0 +1,21 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "Stony_Dirt_Albedo.png",
+        "general.applySpecularAA": true,
+        "irradiance.irradianceColorSource": "BaseColor",
+        "normal.textureMap": "../Dirt_On_Sandy_Ground/Dirt_On_Sandy_Ground_Normal.png",
+        "occlusion.diffuseTextureMap": "../Dirt_On_Sandy_Ground/Dirt_On_Sandy_Ground_AmbientOcclusion.png",
+        "parallax.algorithm": "ContactRefinement",
+        "parallax.factor": 0.029999999329447746,
+        "parallax.pdo": true,
+        "parallax.quality": "Medium",
+        "parallax.textureMap": "../Dirt_On_Sandy_Ground/Dirt_On_Sandy_Ground_Height.png",
+        "specularF0.enableMultiScatterCompensation": true,
+        "specularF0.factor": 1.0,
+        "specularF0.textureMap": "../Dirt_On_Sandy_Ground/Dirt_On_Sandy_Ground_SpecularLevel.png",
+        "uv.scale": 0.25
+    }
+}
