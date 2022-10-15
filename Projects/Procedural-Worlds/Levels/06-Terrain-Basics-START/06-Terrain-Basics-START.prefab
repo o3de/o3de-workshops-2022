@@ -7,10 +7,6 @@
                 "$type": "EditorInspectorComponent",
                 "Id": 10641544592923449938
             },
-            "Component_[10948392949207611610]": {
-                "$type": "EditorDebugComponent",
-                "Id": 10948392949207611610
-            },
             "Component_[12039882709170782873]": {
                 "$type": "EditorOnlyEntityComponent",
                 "Id": 12039882709170782873
@@ -39,18 +35,6 @@
             "Component_[16239496886950819870]": {
                 "$type": "EditorDisabledCompositionComponent",
                 "Id": 16239496886950819870
-            },
-            "Component_[2465886283293604114]": {
-                "$type": "EditorLevelSettingsComponent",
-                "Id": 2465886283293604114,
-                "Configuration": {
-                    "AreaSystemConfig": {
-                        "ViewRectangleSize": 30,
-                        "SectorDensity": 10,
-                        "SectorSizeInMeters": 10,
-                        "SectorPointSnapMode": 1
-                    }
-                }
             },
             "Component_[3568138281852147676]": {
                 "$type": "LocalViewBookmarkComponent",
@@ -204,7 +188,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 17789175627565747106
+                            "EditorEntityId": 13902433436034867413
                         }
                     }
                 },
@@ -856,7 +840,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 60.0000114440918,
-                            "EditorEntityId": 17577598038530223777
+                            "EditorEntityId": 10350100005364054983
                         }
                     }
                 },
@@ -1215,7 +1199,7 @@
                                 },
                                 "assetHint": "reflectionprobes/tb_wrldreflprobe__e860579f-4f3f-4f9d-95de-5411ffd08047__iblspecularcm512.dds.streamingimage"
                             },
-                            "EntityId": 2052469180298522387
+                            "EntityId": 6202083463236701197
                         }
                     },
                     "bakedCubeMapQualityLevel": 3,
@@ -1309,7 +1293,7 @@
                                 },
                                 "assetHint": "reflectionprobes/tb_localrefl_cm__ca37df4e-1042-4626-bf8a-e05096140ef9__iblspecularcm1024.dds.streamingimage"
                             },
-                            "EntityId": 11626180520477719453,
+                            "EntityId": 17949220470895279791,
                             "ShowVisualization": false
                         }
                     },
