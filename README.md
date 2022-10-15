@@ -149,6 +149,8 @@ If this is the project you are primarily working with, you can also set it as th
 
 This will make this the project that launches by default if you manually directly double-click on a o3de executable like editor.exe
 
+![image](https://user-images.githubusercontent.com/23222931/196006867-cb15edf9-ca10-48ae-8edc-4bd92bdcd9aa.png)
+
 ## License
 
 For terms please see the LICENSE*.TXT file at the root of this distribution.
