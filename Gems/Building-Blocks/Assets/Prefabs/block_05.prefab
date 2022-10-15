@@ -97,7 +97,8 @@
                 "Component_[7189302273120998159]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7189302273120998159,
-                    "Parent Entity": "ContainerEntity"
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
                 }
             }
         },
@@ -144,6 +145,37 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 3785720261915084769
                 },
+                "Component_[4885662005538197454]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 4885662005538197454,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                0.009999999776482582,
+                                0.009999999776482582,
+                                0.009999999776482582
+                            ],
+                            "Configuration": [
+                                101.0,
+                                101.0,
+                                101.0
+                            ]
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[4965894251255928300]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 4965894251255928300
@@ -159,7 +191,8 @@
                             0.5
                         ],
                         "UniformScale": 0.009999999776482582
-                    }
+                    },
+                    "IsStatic": true
                 },
                 "Component_[8674620067413128599]": {
                     "$type": "EditorMaterialComponent",

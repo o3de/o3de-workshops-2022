@@ -229,7 +229,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 2811169123515926671
+                            "EditorEntityId": 14754281178997235762
                         }
                     }
                 },
@@ -615,12 +615,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[10745184650854143571]/Transform Data/Translate/0",
-                    "value": 2.24582839012146
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[10745184650854143571]/Transform Data/Translate/1",
-                    "value": -0.19425725936889648
+                    "value": 2.2451751232147217
                 }
             ]
         },
