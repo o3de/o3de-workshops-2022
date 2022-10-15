@@ -2,7 +2,7 @@
 
 This Open 3D Engine "o3de-workshop-2022" repo is licensed under the following conditions:
 
-PROJECT DATA: "o3de-workshop-2022\Project"
+PROJECT DATA: "o3de-workshop-2022\Projects"
 URL: https://github.com/o3de/o3de-workshops-2022/tree/main/Projects
 URL: https://github.com/o3de/o3de-workshops-2022/tree/main/Projects/Procedural-Worlds
 

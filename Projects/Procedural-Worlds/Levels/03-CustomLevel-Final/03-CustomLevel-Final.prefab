@@ -281,7 +281,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 4869545483609542436
+                            "EditorEntityId": 4146888793488530541
                         }
                     }
                 },
@@ -992,7 +992,7 @@
                                 },
                                 "assetHint": "levels/01-intro-finish/cubemaps/cubemap_iblskyboxcm_iblspecular.dds.streamingimage"
                             },
-                            "EntityId": 11542138126678033286,
+                            "EntityId": 6466980350325488940,
                             "ShowVisualization": false
                         }
                     },

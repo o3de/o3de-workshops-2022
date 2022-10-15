@@ -1,56 +1,35 @@
 {
-    "description": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "parentMaterial": "",
-    "propertyLayoutVersion": 3,
-    "properties": {
-        "baseColor": {
-            "textureBlendMode": "Lerp",
-            "textureMap": "Materials/gold_ore/gold_ore_basecolor.png"
-        },
-        "clearCoat": {
-            "enable": true,
-            "factor": 0.5,
-            "normalMap": "Materials/gold_ore/gold_ore_normal.png",
-            "roughness": 0.10000000149011612,
-            "roughnessMap": "Materials/gold_ore/gold_ore_roughness.png",
-            "useRoughnessMap": false
-        },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
-        "general": {
-            "applySpecularAA": true
-        },
-        "metallic": {
-            "textureMap": "Materials/gold_ore/gold_ore_metallic.png"
-        },
-        "normal": {
-            "factor": 0.5,
-            "textureMap": "Materials/gold_ore/gold_ore_normal.png"
-        },
-        "occlusion": {
-            "diffuseTextureMap": "Materials/gold_ore/gold_ore_ambientocclusion.png"
-        },
-        "opacity": {
-            "factor": 1.0
-        },
-        "parallax": {
-            "algorithm": "ContactRefinement",
-            "factor": 0.029999999329447746,
-            "quality": "Medium",
-            "textureMap": "Materials/gold_ore/gold_ore_height.png"
-        },
-        "roughness": {
-            "factor": 0.33000001311302185,
-            "textureMap": "Materials/gold_ore/gold_ore_roughness.png"
-        }
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "gold_ore_basecolor.png",
+        "clearCoat.enable": true,
+        "clearCoat.factor": 0.5,
+        "clearCoat.normalMap": "gold_ore_normal.png",
+        "clearCoat.roughness": 0.10000000149011612,
+        "clearCoat.roughnessMap": "gold_ore_roughness.png",
+        "clearCoat.useRoughnessMap": false,
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.useTexture": false,
+        "general.applySpecularAA": true,
+        "metallic.textureMap": "gold_ore_metallic.png",
+        "normal.factor": 0.5,
+        "normal.textureMap": "gold_ore_normal.png",
+        "occlusion.diffuseTextureMap": "gold_ore_ambientocclusion.png",
+        "opacity.factor": 1.0,
+        "parallax.algorithm": "ContactRefinement",
+        "parallax.factor": 0.029999999329447746,
+        "parallax.quality": "Medium",
+        "parallax.textureMap": "gold_ore_height.png",
+        "roughness.factor": 0.33000001311302185,
+        "roughness.textureMap": "gold_ore_roughness.png",
+        "specularF0.textureMap": "gold_ore_specular.png"
     }
 }

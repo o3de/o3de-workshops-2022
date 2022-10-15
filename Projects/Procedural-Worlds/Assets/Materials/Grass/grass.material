@@ -1,8 +1,7 @@
 {
     "description": "",
-    "materialType": "Materials/Types/AnimatedGrass.materialtype",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
     "parentMaterial": "",
-    "propertyLayoutVersion": 0,
     "properties": {
         "baseColor": {
             "textureMap": "Materials/grass_base_color.png"

@@ -1,0 +1,25 @@
+{
+    "materialType": "@gemroot:Terrain@/Assets/Materials/Terrain/TerrainDetailMaterial.materialtype",
+    "materialTypeVersion": 1,
+    "propertyValues": {
+        "baseColor.color": [
+            0.17886625230312347,
+            0.09092850983142853,
+            0.03532463684678078,
+            1.0
+        ],
+        "baseColor.factor": 0.7300000190734863,
+        "baseColor.textureBlendMode": "LinearLight",
+        "baseColor.textureMap": "Stony_Dirt_Albedo_HP.png",
+        "general.applySpecularAA": true,
+        "irradiance.manualColor": [
+            0.43932250142097473,
+            0.3359731435775757,
+            0.2371252030134201,
+            1.0
+        ],
+        "specularF0.enableMultiScatterCompensation": true,
+        "terrain.overrideParallaxSettings": true,
+        "uv.scale": 0.20000000298023224
+    }
+}
