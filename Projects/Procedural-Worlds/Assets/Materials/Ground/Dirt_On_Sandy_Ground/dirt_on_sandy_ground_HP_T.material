@@ -3,9 +3,9 @@
     "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
-            0.4800030589103699,
-            0.381994366645813,
-            0.24480049312114716,
+            0.11546501517295837,
+            0.09198138117790222,
+            0.05906767398118973,
             1.0
         ],
         "baseColor.textureBlendMode": "LinearLight",
@@ -22,6 +22,8 @@
         "parallax.textureMap": "Dirt_On_Sandy_Ground_Height.png",
         "roughness.textureMap": "Dirt_On_Sandy_Ground_Roughness.png",
         "specularF0.textureMap": "Dirt_On_Sandy_Ground_SpecularLevel.png",
+        "terrain.heightOffset": 0.3400000035762787,
+        "terrain.heightScale": 0.6399999856948853,
         "terrain.overrideParallaxSettings": true,
         "uv.scale": 0.25
     }

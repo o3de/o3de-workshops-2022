@@ -1,0 +1,24 @@
+{
+    "values": [
+        {
+            "$type": "MotionGroup",
+            "name": "walking",
+            "selectedRootBone": "RootNode",
+            "id": "{70EB0B9F-5C12-5976-A0FB-214AB34DD3C8}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MotionSamplingRule"
+                    },
+                    {
+                        "$type": "EMotionFX::Pipeline::Rule::RootMotionExtractionRule",
+                        "data": {
+                            "sampleJoint": "RootNode.mixamorig:Hips",
+                            "transitionZeroX": true
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
