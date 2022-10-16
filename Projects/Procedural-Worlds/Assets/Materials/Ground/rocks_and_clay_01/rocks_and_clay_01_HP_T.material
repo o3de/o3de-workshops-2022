@@ -26,7 +26,7 @@
         "parallax.textureMap": "compact_rocks_and_clay_ground_01_height.png",
         "roughness.textureMap": "compact_rocks_and_clay_ground_01_roughness.png",
         "specularF0.textureMap": "compact_rocks_and_clay_ground_01_specularlevel.png",
-        "terrain.blendFactor": 0.33000001311302185,
+        "terrain.blendFactor": 0.3499999940395355,
         "terrain.heightOffset": 0.5,
         "terrain.heightScale": 1.5,
         "terrain.overrideParallaxSettings": true,
