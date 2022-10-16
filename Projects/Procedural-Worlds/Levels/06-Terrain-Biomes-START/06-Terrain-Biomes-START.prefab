@@ -307,7 +307,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 45.0,
-                            "EditorEntityId": 9213348123802459786
+                            "EditorEntityId": 15029845630316063005
                         }
                     }
                 },
@@ -727,7 +727,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 60.0000114440918,
-                            "EditorEntityId": 8869279482206210819
+                            "EditorEntityId": 10566824020022586047
                         }
                     }
                 },
@@ -1390,7 +1390,7 @@
                         "Configuration": {
                             "Field of View": 60.0000114440918,
                             "Far Clip Plane Distance": 2048.0,
-                            "EditorEntityId": 8718647496182581686
+                            "EditorEntityId": 4802620379099712629
                         }
                     }
                 },
@@ -1409,14 +1409,14 @@
                     "Parent Entity": "Entity_[15589522648528]",
                     "Transform Data": {
                         "Translate": [
-                            34.865447998046875,
-                            -51.220863342285156,
-                            22.693134307861328
+                            26.308164596557617,
+                            -59.38571548461914,
+                            16.154563903808594
                         ],
                         "Rotate": [
-                            -33.620845794677734,
-                            -15.488089561462402,
-                            21.8807430267334
+                            -25.94061851501465,
+                            -5.388861656188965,
+                            10.927130699157715
                         ]
                     }
                 }
@@ -1640,7 +1640,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 60.0000114440918,
-                            "EditorEntityId": 16829030571832088083
+                            "EditorEntityId": 4091744308907681981
                         }
                     }
                 },
@@ -1744,7 +1744,14 @@
                 "Component_[8952390019432360401]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 8952390019432360401,
-                    "Parent Entity": "Entity_[853941886019215]"
+                    "Parent Entity": "Entity_[748348129466536]",
+                    "Transform Data": {
+                        "Translate": [
+                            -23.637836456298828,
+                            30.81889533996582,
+                            -1.788604497909546
+                        ]
+                    }
                 }
             }
         },
@@ -2326,7 +2333,7 @@
                         "Configuration": {
                             "Field of View": 45.0,
                             "Far Clip Plane Distance": 4096.0,
-                            "EditorEntityId": 14002311279480471741
+                            "EditorEntityId": 18144521880308054274
                         }
                     }
                 },
@@ -2872,7 +2879,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 60.0000114440918,
-                            "EditorEntityId": 8290697511921728313
+                            "EditorEntityId": 2151933388429024326
                         }
                     }
                 },
@@ -3211,7 +3218,7 @@
                                 },
                                 "assetHint": "reflectionprobes/local_refl_probe__5fb55571-5511-4d31-87c3-0db1390afa32__iblspecularcm256.dds.streamingimage"
                             },
-                            "EntityId": 9407354760183295775,
+                            "EntityId": 8115940393050205747,
                             "ShowVisualization": false
                         }
                     },
@@ -3725,7 +3732,7 @@
                         "Configuration": {
                             "Field of View": 55.0,
                             "Far Clip Plane Distance": 2048.0,
-                            "EditorEntityId": 9830876025946678365
+                            "EditorEntityId": 17110367104604311967
                         }
                     }
                 },
@@ -3917,7 +3924,7 @@
                                 },
                                 "assetHint": "reflectionprobes/worldreflectionprobe__7115ef35-fa80-408f-a397-d7991f60ad5b__iblspecularcm256.dds.streamingimage"
                             },
-                            "EntityId": 16870047722229757500,
+                            "EntityId": 8798892358079491245,
                             "ShowVisualization": false,
                             "RenderExposure": 1.5
                         }
@@ -4170,6 +4177,7 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 14053681640690024760,
                     "Child Entity Order": [
+                        "Entity_[21496983742386]",
                         "Entity_[3622236596301]"
                     ]
                 },
@@ -4370,7 +4378,6 @@
                         "Entity_[748232165349544]",
                         "Entity_[94832803332217]",
                         "Entity_[276505624985721]",
-                        "Entity_[21496983742386]",
                         "Entity_[33840719751090]"
                     ]
                 },
