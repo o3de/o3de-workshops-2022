@@ -37,7 +37,6 @@
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
                     "Entity_[1386065800656]",
-                    "Entity_[853941886019215]",
                     "Entity_[866427355948687]"
                 ]
             },
@@ -213,7 +212,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 9213348123802459786
+                            "EditorEntityId": 12991897284549689018
                         }
                     }
                 },
@@ -1155,7 +1154,7 @@
         },
         "Entity_[3877368418636]": {
             "Id": "Entity_[3877368418636]",
-            "Name": "BaseTerrainLayer_64m",
+            "Name": "BaseTerrainLayer_32m",
             "Components": {
                 "Component_[1060401717870813000]": {
                     "$type": "EditorLockComponent",
@@ -1230,12 +1229,12 @@
                 "Component_[16155268311254853380]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 16155268311254853380,
-                    "Parent Entity": "Entity_[866427355948687]",
+                    "Parent Entity": "Entity_[853941886019215]",
                     "Transform Data": {
                         "Translate": [
                             0.0,
                             0.0,
-                            2.0
+                            -30.0
                         ]
                     }
                 },
@@ -1374,7 +1373,7 @@
                                 },
                                 "assetHint": "reflectionprobes/worldreflectionprobe__7115ef35-fa80-408f-a397-d7991f60ad5b__iblspecularcm256.dds.streamingimage"
                             },
-                            "EntityId": 16870047722229757500,
+                            "EntityId": 7275897760545902914,
                             "ShowVisualization": false
                         }
                     },
@@ -1643,7 +1642,7 @@
                 "Component_[2655943819539417988]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 2655943819539417988,
-                    "Parent Entity": "Entity_[1146574390643]",
+                    "Parent Entity": "Entity_[866427355948687]",
                     "Transform Data": {
                         "Translate": [
                             0.0,
@@ -1695,7 +1694,10 @@
                 },
                 "Component_[4792865755075154636]": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 4792865755075154636
+                    "Id": 4792865755075154636,
+                    "Child Entity Order": [
+                        "Entity_[3877368418636]"
+                    ]
                 },
                 "Component_[7954853832410948879]": {
                     "$type": "EditorInspectorComponent",
@@ -1720,7 +1722,7 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 10581589945833445901,
                     "Child Entity Order": [
-                        "Entity_[3877368418636]",
+                        "Entity_[853941886019215]",
                         "Entity_[11654306241057]",
                         "Entity_[1182559573900544]"
                     ]
