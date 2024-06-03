@@ -1,0 +1,29 @@
+{
+    "project_name": "Procedural-Worlds",
+    "project_id": "{52980241-B349-4342-886A-22166E8E10AE}",
+    "origin": "The primary repo for Procedural-Worlds goes here: i.e. http://www.mydomain.com",
+    "license": "What license Procedural-Worlds uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "Procedural-Worlds",
+    "summary": "A short description of Procedural-Worlds.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "Procedural-Worlds"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": [
+        "Gem",
+        "../../Gems/Building-Blocks",
+        "../../Gems/Env-Art",
+        "../../Gems/Sample-Terrain"
+    ],
+    "restricted": "Procedural-Worlds",
+    "gem_names": [
+        "DccScriptingInterface",
+        "PW-Building-Blocks",
+        "PW-Env-Art",
+        "PW-Sample-Terrain"
+    ]
+}

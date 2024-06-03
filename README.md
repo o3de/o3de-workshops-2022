@@ -1,159 +1,46 @@
-# o3de-workshops-2022
+<u>Supported o3de versions</u> : **23.10**
 
-This repository contains asset gems and project files used in workshops during the  O3Dcon 2022.  Instructions for each workshop are detailed below.
+# O3DCon 2022 Workshops
 
-# Workshop: World Building
+![gameplay](doc/gameplay.gif?raw=true)
 
-### Project: Procedural-Worlds
+This repository contains a series of procedural world examples, used in the O3Dcon 2022 workshop "World Building with O3DE". The video conference to follow along [is available here](https://www.youtube.com/watch?v=x5NtCK15AGo) and the slides [are available here](doc/O3DECon_2022_JKG_WorldBuilding.pdf).
 
-A content sample project for Open 3D Engine (O3DE) that contains a series of procedural world examples, used in the O3Dcon 2022 workshop "World Building with O3DE"
+A similar workshop for multiplayer games [is available here](https://github.com/AMZN-Gene/o3dcon-2022-multiplayer-workshop)
 
-![image](https://user-images.githubusercontent.com/23222931/196006789-299b2e9f-f864-4a2a-988d-b75476ec043c.png)
+## Prerequisites
 
-#### 1. Set up the Engine
+You need to build or [install O3DE engine](https://o3de.org/download/).
 
-Either build the installer yourself (*cmake --build build/windows_vs2019 --target INSTALL --config profile), or download the 22.10 release,* or download the latest nightly install build https://o3debinaries.org/development/Latest/Windows/o3de_installer.exe
+You need to [install git with lfs support](https://git-scm.com/downloads), and [setup a token on your github account](https://www.docs.o3de.org/docs/welcome-guide/setup/setup-from-github/#configure-credentials-for-git-lfs). Needed as the repository uses Git LFS, the "Download ZIP" button will not download assets.
 
-This repository uses Git LFS for storing large binary files. You will need to create a Github personal access token to authenticate with the LFS service.
+## How to run
 
-#### Create a Git Personal Access Token
+1. Clone the github repository (`git clone https://github.com/o3de/o3de-workshops-2022.git`). When prompted to authenticate, use your github username and the token as password.
+2. Launch O3DE. It will open the Project manager. Click on the **New Project** button then **Open Existing Project** option.
+3. Navigate to the cloned repository. Open the **Projects/Procedural-Worlds** folder. The project should now be registered.
 
-You will need your personal access token credentials to authenticate when you clone the repository.
+![project](doc/cover.png?raw=true)
 
-[Create a personal access token with the 'repo' scope.](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
+4. Click on the **Build Project** button, located on the **Procedural Worlds** image.
+5. Once the project has been built successfully, use the **Open Editor** button.
+6. The asset pre-processor will run for a bit. Once it is over you will be welcomed with the **Open a Level** window. Pick one as you like.
 
-#### (Recommended) Verify you have a credential manager installed to store your credentials
+## Project Highlights
 
-Recent versions of Git install a credential manager to store your credentials so you don't have to put in the credentials for every request. It is highly recommended you check that you have a [credential manager installed and configured](https://github.com/microsoft/Git-Credential-Manager-Core)
+- **Terrain gem showcase** various terrain setups with high quality assets,
+- **Procedural terrain generation** uses procedural generation to create terrain from a small set of data at runtime
+- **PostFX rendering pass** use custom post process pass to improve the visuals
 
-#### Step 2. Clone the workshop repository
+### Screenshots
 
-You can clone the project to any folder locally, including inside the engine folder. If you clone the project inside an existing Git repository (e.g. o3de) you should add the project folder to the Git exclude file for the existing repository.ne-the-repository)
+![screenshot](doc/screenshot-1.png?raw=true)
 
-##### Option #1 (Highly Recommended) - cloning into a folder outside the engine repository folder
+![screenshot](doc/screenshot-2.png?raw=true)
 
-```shell
-# clone the project into a folder outside your engine repository folder
-> git clone https://github.com/o3de/o3de-workshops-2022.git
-Cloning into 'o3de-workshops-2022'...
-```
-
-##### Option #2 - cloning into the engine repository folder
-
-```shell
-# clone the project into a folder named 'o3de-workshops-2022 in your existing engine repository folder
-> git clone https://github.com/o3de/o3de-workshops-2022.git c:/path/to/o3de/o3de-workshops-2022
-Cloning into 'o3de-workshops-2022'...
-
-# modify the local engine git exclude file to ignore the project folder
-> echo o3de-workshops-2022 > c:/path/to/o3de/.git/info/exclude
-```
-
-If you have a Git credential helper configured, you should not be prompted for your credentials anymore.
-
-### Step 3. Register the Gems and Project with the engine
-
-You may have already done this, these are the same steps as setting up the o3de-multiplayer sample project. But if you are adding them to your own project these are the steps to do so.
-
-Make sure your engine is registered.
-
-```batch
-:: register the gems with the engine, you only need to do this once
-> c:\path\to\o3de\scripts\o3de register --this-engine
-```
-
-Now make sure that the source gems are registered
-
-```batch
-:: register the gems with the engine, you only need to do this once
-> o3de register --all-gems-path c:\path\to\o3de-workshops-2022\Gems
-```
-
- The above command will recursively scan the input path, then registers all paths with gem.json files into the ~/.o3de/o3de_manifest.json  Now these Gems will be available in the Project Manager and can be added to your Project.
-
-This repository contains it's own O3DE Game project
-
-```shell
-# the test project for mps assets, is in this project folder in repo
-> cd C:\path\to\o3de-workshops-2022\Projects\Procedural-Worlds
-```
-
-### Option 1. Add Project to O3DE Project Manager
-
-1. Launch your O3DE Project Manager (o3de.exe)
-
-2. Use the blue button in the upper right labeled "New Project ...", and with the pulldown select "Open Existing Project"
-
-3. Browse to and add the MPS Asset Test Project folder: C:\path\to\repo\o3de-workshops-2022\Projects\Procedural-Worlds
-
-4. You may be prompted to rebuild the project (there are other options for building as a developer)
-
-5. Launch the Editor for the project
-
-### Option 2. Add via cli and build yourself
-
-You can use the o3de cli tools to register your project with your engine.
-
-```shell
-# change directory to the egine root folder
-> cd c:\path\to\your\o3de-engine
-# register the gems with the engine, you only need to do this once
-> scripts\o3de register --project-path C:\path\to\repo\o3de-workshops-2022\Projects\Procedural-Worlds
-```
-
-There are a number of ways to configure and build the engine and project ...
-
-[Configure and Build - Open 3D Engine](https://www.o3de.org/docs/user-guide/build/configure-and-build/)
-
-As a developer, I often find it useful to build in an engine-centric way
-
-```batch
-# change directory to the egine root folder
-> cd c:\path\to\your\o3de-engine
-# create a build folder
-> mkdir build
-> cd build
-# configure cmake and create sollutiuon
-> cmake .. -G "Visual Studio 16" -A x64 -DLY_3RDPARTY_PATH="%LY_3RDPARTY_PATH%" -DLY_UNITY_BUILD=OFF -DLY_PROJECTS="C:\path\to\repo\o3de-workshops-2022\Projects\Procedural-Worlds"
-```
-
-This should generate a build\O3DE.sln file, which can be opened in Visual Studio 2019 and compiled.
-
-Don't forget to build the project in Profile
-
-![image](https://user-images.githubusercontent.com/23222931/185497967-b94e1e5e-722c-4b84-b950-a00477343e56.png)
-
-Building the Editor project will build with all dependencies.
-
-![image](https://user-images.githubusercontent.com/23222931/185498026-0f235b71-ff10-4135-8008-ba067b6a285b.png)
-
-The built binary executables will be in:
-
-```shell
-# bin folder
-> cd C:\depot\o3de-dev\build\bin\profile\
-# executbales
-# C:\depot\o3de-dev\build\bin\profile\o3de.exe
-# C:\depot\o3de-dev\build\bin\profile\editor.exe
-# ...
-```
-
-If this is the project you are primarily working with, you can also set it as the "default project".
-
-```shell
-# change directory to the egine root folder
-> cd c:\path\to\your\o3de-engine
-# register the gems with the engine, you only need to do this once
-> scripts\o3de set-global-project -pp <project-path>
-```
-
-This will make this the project that launches by default if you manually directly double-click on a o3de executable like editor.exe
-
-![image](https://user-images.githubusercontent.com/23222931/196006867-cb15edf9-ca10-48ae-8edc-4bd92bdcd9aa.png)
+![screenshot](doc/screenshot-3.png?raw=true)
 
 ## License
 
 For terms please see the LICENSE*.TXT file at the root of this distribution.
 
-// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.  
-// SPDX-License-Identifier: CC-BY-4.0
